@@ -1,0 +1,35 @@
+.wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.img-wrap {
+    width: 100%;
+    // height: 100%;
+    max-width: 200px;
+    // min-height: 200px;
+}
+.img-wrap > img {
+    width: 100%;
+    // height: 100%;
+    transform: rotate3d(0, 0, 0, 0deg);
+    transition: 3000ms transform linear;
+}
+.img-wrap > img:hover {
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+.wrap-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap-input > mat-form-field {
+    width: 100%;
+    max-width: 300px;
+}
